@@ -73,8 +73,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\3D Line Slider\GizmoThinLineSlider3DController.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Scene\SceneRaycastHit.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Core Data Types\GizmoPlane2DType.cs" />
-    <Compile Include="Assets\OBJImport\TextureLoader\ImageLoaderHelper.cs" />
-    <Compile Include="Assets\OBJImport\OBJLoaderHelper.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Caps\2D Caps\GizmoArrowCap2DController.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\Primitive Math\ArcMath.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\Borders\3D Quad\IGizmoQuad3DBorderController.cs" />
@@ -96,7 +94,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Selection\ObjectSelectionGizmoId.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Core Types\YesNoAnswer.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Drag\GizmoSglAxisRotationDrag3D.cs" />
-    <Compile Include="Assets\Save is easy\Adapters\LineRendererAdapter.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Prefab Management\RTPrefabLibDbUI.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\Primitive Math\BoxMath.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\Borders\3D Quad\GizmoQuad3DBorderControllerData.cs" />
@@ -145,7 +142,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Camera\RTFocusCamera.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Input\IInputDevice.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Scene\Grid\XZGridLookAndFeel.cs" />
-    <Compile Include="Assets\Save is easy\Examples\Example Menu\LoadPart.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\Sphere.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Utilities\Dynamic Convert\DynamicConvertSettings.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Transform Gizmos\Scale Gizmo\ScaleGizmoSettings3D.cs" />
@@ -174,14 +170,12 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Extensions\TransformEx.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Extensions\Vector3Ex.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Extensions\Vector2Ex.cs" />
-    <Compile Include="Assets\OBJImport\StringExtensions.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Handles\GizmoHandle.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\Borders\2D Quad\GizmoQuad2DBorderControllerData.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Core Data Types\GizmoTransformSnapshot.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Scene\Grid\XZGridCell.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Camera\CameraHotkeys.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmoLookAndFeel2D.cs" />
-    <Compile Include="Assets\Save is easy\Examples\Example Menu\SaveIsEasyMenu.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\UndoRedo\UndoRedoActions.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Extensions\Matrix4x4Ex.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Extensions\GameObjectEx.cs" />
@@ -207,13 +201,10 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Core Data Types\GizmoShadeMode.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Transform Gizmos\Rotation Gizmo\RotationGizmoHotkeys.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Camera\CameraFocus.cs" />
-    <Compile Include="Assets\OBJImport\TextureLoader\TGALoader.cs" />
-    <Compile Include="Assets\OBJImport\CharWordReader.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Meshes\Data Management\RTMeshCompiler.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\UndoRedo\RTUndoRedo.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Transform Gizmos\Move Gizmo\MoveGizmoSettings2D.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoQuad3DBorderType.cs" />
-    <Compile Include="Assets\OBJImport\Samples\ObjFromFile.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Scene Gizmo\Scene Gizmo Handles\SceneGizmoCamPrjSwitchLabel.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3D.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Caps\2D Caps\GizmoCap2DCollection.cs" />
@@ -233,20 +224,16 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Scene Gizmo\RTSceneGizmoCamera.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Selection\IObjectCollectionGizmoController.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Core Data Types\GizmoSnapMode.cs" />
-    <Compile Include="Assets\OBJImport\TextureLoader\BMPLoader.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Selection\ObjectSelectionActions.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\AxisSign.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Scaling\GizmoScaleGuide.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Drag\GizmoObjectVertexSnapDrag3D.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Utilities\StringMatch.cs" />
-    <Compile Include="Assets\OBJImport\TextureLoader\BinaryExtensions.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Meshes\Creation\BoxMesh.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3DSettings.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Meshes\Creation\PrismMesh.cs" />
-    <Compile Include="Assets\Save is easy\Examples\Example 1\ExampleCube.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Caps\3D Caps\IGizmoCap3DController.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Utilities\UniqueNameGen.cs" />
-    <Compile Include="Assets\OBJImport\Samples\ObjFromStream.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Input\TouchInputDevice.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Core Data Types\GizmoOverrideColor.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3DCollection.cs" />
@@ -284,7 +271,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\GizmoRotationArcFillFlags.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\GizmoRotationArc3DLookAndFeel.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\Borders\2D Circle\IGizmoCircle2DBorderController.cs" />
-    <Compile Include="Assets\Save is easy\Examples\ExampleControlGUI.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Transform Gizmos\Rotation Gizmo\RotationGizmoSettings3D.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\SnapMath.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Drag\GizmoDblAxisOffsetDrag3D.cs" />
@@ -301,13 +287,11 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Caps\3D Caps\GizmoCap3DCollection.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Resource Management\MeshPool.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Sessions\ObjectGrabSession.cs" />
-    <Compile Include="Assets\OBJImport\TextureLoader\ColorExtensions.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Caps\3D Caps\GizmoConeCap3DController.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\2D Line Slider\IGizmoLineSlider2DController.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\Primitive Math\ConeMath.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\Borders\3D RATriangle\GizmoRATriangle3DBorder.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Shapes\SegmentShape3D.cs" />
-    <Compile Include="Assets\OBJImport\TextureLoader\ImageUtils.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Scaling\GizmoScaleGuideLookAndFeel.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\Borders\3D Quad\GizmoBoxQuad3DBorderController.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\GizmoSlider.cs" />
@@ -318,7 +302,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Editor UI\RLDEditorWindow.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Caps\3D Caps\GizmoCap3DType.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\Borders\3D Circle\IGizmoCircle3DBorderController.cs" />
-    <Compile Include="Assets\OBJImport\OBJObjectBuilder.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Meshes\Creation\TorusMesh.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\Axis.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Shapes\CircleShape2D.cs" />
@@ -405,7 +388,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Transform Gizmos\Rotation Gizmo\RotationGizmoLookAndFeel3D.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\2D Plane Slider\GizmoCircle2DBorderType.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\GizmoRotationArc3D.cs" />
-    <Compile Include="Assets\Save is easy\Examples\Example 2\Example2CubeMove.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Shapes\QuadShape2D.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Camera\CameraBackgroundSettings.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Extensions\AssetDatabaseEx.cs" />
@@ -433,7 +415,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\OBB.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Scene\SceneRaycastFilter.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Sessions\ObjectGridSnapSession.cs" />
-    <Compile Include="Assets\OBJImport\TextureLoader\DDSLoader.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\GizmoCollectionEnabledStateSnapshot.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Extensions\LayerEx.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Sessions\ObjectGrabSurfaceFlags.cs" />
@@ -463,7 +444,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Handles\GizmoHandleCollection.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Shapes\Shape2DExtentPoint.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\3D Plane Slider\GizmoPlaneSlider3DControllerData.cs" />
-    <Compile Include="Assets\Save is easy\Adapters\AnimationAdapter.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\Borders\3D RATriangle\GizmoRATriangle3DBorderControllerData.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Sessions\InputDevicePlaneDragSession3D.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Transform Gizmos\Rotation Gizmo\RotationGizmo.cs" />
@@ -471,7 +451,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\Borders\2D Polygon\GizmoThinPolygon2DBorderController.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Scene\Grid\RTSceneGrid.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Editor UI\EditorToolbarTab.cs" />
-    <Compile Include="Assets\OBJImport\MTLLoader.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\Primitive Math\PrimitiveFactory.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\RTSystemValues.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Caps\GizmoCap.cs" />
@@ -518,7 +497,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\RTGizmosEngine.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Scene\SceneLookAndFeel.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Drag\GizmoSglAxisOffsetDrag3D.cs" />
-    <Compile Include="Assets\OBJImport\TextureLoader\ImageLoader.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Camera\CameraZoomSettings.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Utilities\ObjectPositionCalculator.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Core Data Types\GizmoDragInfo.cs" />
@@ -526,7 +504,6 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Shapes\ArcShape2D.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Handles\IGizmoHandle.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Gizmo Behaviour\IGizmoBehaviour.cs" />
-    <Compile Include="Assets\OBJImport\OBJLoader.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\Primitive Math\TorusMath.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Math\PlaneDescriptor.cs" />
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Transform Gizmos\Universal Gizmo\UniversalGizmo.cs" />
@@ -542,13 +519,10 @@
     <Compile Include="Assets\Runtime Level Design\Scripts\Gizmos\Sliders\2D Line Slider\GizmoLineSlider2DLookAndFeel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Save is easy\SaveIsEasyDLL.xml" />
     <None Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Resources\Shaders\RTApp_SimpleColor.shader" />
     <None Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Resources\Shaders\RTApp_GizmoSolidHandle.shader" />
-    <None Include="Assets\Save is easy\SaveIsEasyDLL.dll" />
     <None Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Resources\Shaders\RTApp_CircleCull.shader" />
     <None Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Resources\Shaders\RTApp_TintedTexture.shader" />
-    <None Include="Assets\Save is easy\SaveIsEasyEditorDLL.dll" />
     <None Include="Assets\Runtime Level Design\Docs\Readme.txt" />
     <None Include="Assets\Runtime Level Design\Scripts\Runtime Package Common\Resources\Shaders\RTApp_TorusCull.shader" />
     <None Include="Assets\Runtime Level Design\Docs\Version History.txt" />
@@ -891,14 +865,6 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
       <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.2.5\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="SaveIsEasyDLL">
-      <HintPath>Assets\Save is easy\SaveIsEasyDLL.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="SaveIsEasyEditorDLL">
-      <HintPath>Assets\Save is easy\SaveIsEasyEditorDLL.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
